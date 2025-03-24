@@ -2,7 +2,7 @@
 By: Anjana Raman and Hima Sineni
 
 ## Overview
-This project implements an ETL (Extract, Transform, Load) pipeline that processes car accident data and with remote weather data. The ETL processor ingests from both local files (CSV or JSON) and remote API calls.
+This project implements an ETL (Extract, Transform, Load) pipeline that processes car accident data with remote weather data. The ETL processor ingests from both local files (CSV or JSON) and remote API calls.
 
 ## Features
 - **Data Ingestion:**
@@ -39,7 +39,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline that processe
      - Desired output file name (or SQL table name if using SQL).
 
 3. **View the Output:**
-   - If you selected `json` or `csv`, the transformed data will be saved as a file in the current directory.
+   - If you selected `json` or `csv`, the transformed data will be saved as a file in the current directory and load data into a SQLite           database table with analysis summaries.
    - If you selected `sql`, the data will be loaded into a SQLite database table, and analysis summaries will be printed.
 
 4. **Review Logs and Summaries:**
